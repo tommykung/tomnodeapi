@@ -5,7 +5,7 @@ const port = 11001;
 
 app.get('/testapione', function (req, res){
 	console.log("enter testapione log");
-	res.send('enter one');
+	res.send('enter one test pass');
 });
 
 app.listen(port, ()=> {
